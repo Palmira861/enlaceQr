@@ -53,7 +53,7 @@
     const AS_URL_BASE = "https://script.google.com/a/~/macros/s/AKfycbwA89exfNnBws_GwSPVNN1obTAyscEeBXwIfWsvG8REnl6RXv_MuLF5UEf4ZAuyYlbgcw/exec"; // llegada de constante k (descripcion) a url en apps Script
     
     var url = document.location.href;
-    var k = url.substr(url.lastIndexOf("k=")+9);
+    var k = url.substr(url.lastIndexOf("k=")+2);
   
     // si hay respuesta devolvemos la URL en la columna de URL DE google Sheets 
     if(k){
