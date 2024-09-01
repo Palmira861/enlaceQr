@@ -50,10 +50,10 @@
 <body>
 
   <script>
-    const AS_URL_BASE = "https://script.google.com/a/~/macros/s/AKfycbxkkAdeYpRO4-_DuGiWWxgKQsgemybHXrGqxnzfywHKGD79qPaQhmQboMfJb_7w8PjS/exec"; // llegada de constante k (descripcion) a url en apps Script
+    const AS_URL_BASE = "https://script.google.com/a/~/macros/s/AKfycbw76fXCsAq3v5vFNqB39xEoeRbowIi5br1utm_TnEtk4uSaiDQ-WoLCYO_AsgDXqnTfLA/exec"; // llegada de constante k (descripcion) a url en apps Script
     
     var url = document.location.href;
-    var k = url.substr(url.lastIndexOf("k=")+7);
+    var k = url.substr(url.lastIndexOf("k=")+8);
   
     // si hay respuesta devolvemos la URL en la columna de URL DE google Sheets 
     if(k){
